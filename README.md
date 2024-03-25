@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/golang-migrate/migrate/ci.yaml?branch=master)](https://github.com/golang-migrate/migrate/actions/workflows/ci.yaml?query=branch%3Amaster)
 [![GoDoc](https://pkg.go.dev/badge/github.com/golang-migrate/migrate)](https://pkg.go.dev/github.com/golang-migrate/migrate/v4)
 [![Coverage Status](https://img.shields.io/coveralls/github/golang-migrate/migrate/master.svg)](https://coveralls.io/github/golang-migrate/migrate?branch=master)
@@ -194,3 +195,6 @@ Also have a look at the [FAQ](FAQ.md).
 ---
 
 Looking for alternatives? [https://awesome-go.com/#database](https://awesome-go.com/#database).
+=======
+# simplebank
+>>>>>>> c29783c09cf4d125fe244696e8099692b2144555
