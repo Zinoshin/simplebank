@@ -16,14 +16,13 @@ func TestTransferTx(t *testing.T) {
 
 	fmt.Println(">> before:", account1.Balance, account2.Balance)
 
-	// run n concurrent transfer transactions
+	// n 개의 동시 이체 트랜잭션 실행
 	n := 5
 	amount := int64(10)
 
 	errs := make(chan error)
 	results := make(chan TransferTxResult)
 
-	// run n concurrent transfer transaction
 	for i := 0; i < n; i++ {
 		// 거래명 삭제 txName := fmt.Sprintf("tx %d", i+1)
 		go func() {
